@@ -1,0 +1,29 @@
+{
+	"devices":
+	[
+		{
+			"id": "01",
+			"deviceName": "SAMSUNG_S7_EDGE",
+			"udid": "ce12160ca085402804",
+			"platformName": "Android",
+			"automationName": "uiautomator2",
+			"observation": ""
+		},
+		{
+			"id": "02",
+			"deviceName": "IPHONE_X",
+			"udid": "d7e76eda2c4e3045925cf367a6d12031050512f7",
+			"platformName": "iOS",
+			"automationName": "",
+			"observation": ""
+		},
+		{
+			"id": "03",
+			"deviceName": "SAMSUNG_G610M",
+			"udid": "5200138a033c158d",
+			"platformName": "Android",
+			"automationName": "uiautomator2",
+			"observation": ""
+		}	
+	]
+}
