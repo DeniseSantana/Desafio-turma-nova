@@ -1,16 +1,16 @@
-package br.com.santander.test.runners;
+package br.com.automacao.test.runners;
 
-import br.com.santander.test.support.CustomTestNGCucumberTestsWeb;
+import br.com.automacao.test.support.CustomTestNGCucumberTestsWeb;
 import io.cucumber.testng.CucumberOptions;
 import io.cucumber.testng.CucumberOptions.SnippetType;
 
 @CucumberOptions(features = "classpath:features", //
-		glue = "br.com.santander.test", //
-		tags = { "@CT=13" }, //
+		glue = "br.com.automacao.test", //
+		tags =  {"@CT=105"} , //
 		plugin = { "json:target/cucumber-report/cucumber.json" }, //
 		monochrome = true, //
 		snippets = SnippetType.CAMELCASE //
 )
-public class AutomacaoBatistaRunner extends CustomTestNGCucumberTestsWeb {
+public class AutomacaoSalesforceRunner extends CustomTestNGCucumberTestsWeb {
 
 }
